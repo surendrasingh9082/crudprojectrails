@@ -1,0 +1,10 @@
+<h1>This is one user data show page</h1>
+
+<p><strong>FirstName: </strong><%= @student.first_name %> </p>
+<p><strong> LastName: </strong><%= @student.last_name %> </p>
+<p><strong> Email:    </strong><%= @student.email %> </p>
+
+<td><%= link_to 'Back' , students_path %></td>
+
+<td><%= link_to "Edit", edit_student_path(@student) %></td>
+
